@@ -1,0 +1,53 @@
+https://keybase.io/sonothing
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ricoip.github.io
+  * I am sonothing (https://keybase.io/sonothing) on keybase.
+  * I have a public key ASAFyqWDiLq0oyj8jwWUBmmSE4E-TYw-LraUE5WsIhv_Ogo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010174d2b14eb3dac10f92e2797a22f4bb45096b4c20190290ce83a3f89e29f0ac640a",
+      "host": "keybase.io",
+      "kid": "012005caa58388bab4a328fc8f059406699213813e4d8c3e2eb6941395ac221bff3a0a",
+      "uid": "5fcf3b696fd03c5720ab08dca6470b19",
+      "username": "sonothing"
+    },
+    "merkle_root": {
+      "ctime": 1582641727,
+      "hash": "3399cd986480a3caa7d6e0c66b91ba911c66204390675cfb4f8f079df687fe6316877339da0b06d6eb845a7c8ecd77cb59abd1b2741366af65671884b1ee7847",
+      "hash_meta": "429f08dc0bf8062748fb610d4c26c07f12ac20b425db820cc7daade61ec11f30",
+      "seqno": 14735714
+    },
+    "service": {
+      "entropy": "SMu6GS8cjP5nwxi6naaUJxc3",
+      "hostname": "ricoip.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.2.0"
+  },
+  "ctime": 1582641732,
+  "expire_in": 504576000,
+  "prev": "34325287aa298e3d5a92d2605860986da5d0758798f07e93b14036e03c56ddcd",
+  "seqno": 67,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgBcqlg4i6tKMo/I8FlAZpkhOBPk2MPi62lBOVrCIb/zoKp3BheWxvYWTESpcCQ8QgNDJSh6opjj1aktJgWGCYbaXQdYeY8H6TsUA24DxW3c3EINP8I3b5YpUY/FbWYYTKC458FqBaoUOWuyfcYRKbuK7nAgHCo3NpZ8RAIbzaGL3h90vPn9pPHUAGaSoMEFcIhgjBvlTKe+TRJRgb3chlACYh8YrHd7HRx0BFcnQaxGcJO8D3sdqOno1aAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFz5bbO+MqgbaaHZC5LAlYLm0H722657prdUDiT876cko3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sonothing
