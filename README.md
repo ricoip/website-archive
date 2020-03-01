@@ -1,2 +1,3 @@
 # ricoip.github.io
-Mirror of sonothing.keybase.pub
+
+Also available on https://sonothing.keybase.pub
