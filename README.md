@@ -1,3 +1,3 @@
 # ricoip.github.io
 
-Also available on https://sonothing.keybase.pub
+Also available on http://ricoip.com
