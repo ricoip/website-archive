@@ -1,6 +1,6 @@
 body {
     font-family: "Source Sans Pro", sans-serif;
-    background-color: black;
+    background-color: #151515;
     color: white;
     font-size: large;
 }
@@ -25,7 +25,7 @@ nav li {
 nav li a {
     text-decoration: none;
 }
-nav li a.current {
+nav li a.current, nav li a.current:hover {
     color: lightseagreen;
 }
 nav li a:hover {
