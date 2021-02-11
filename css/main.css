@@ -2,8 +2,6 @@ html {
     max-width: 100%;
 }
 body {
-    max-width:800px;
-    margin: 0.75em auto;
     font-family: "Source Sans Pro", sans-serif;
     font-size: larger;
     background-color: #151515;
@@ -15,6 +13,8 @@ code {
 a {
 }
 nav {
+    max-width:800px;
+    margin: 0.75em auto;
     background-image: linear-gradient(90deg, #303030, #151515 95%);
     clear: both;
 }
