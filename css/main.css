@@ -4,9 +4,9 @@ html {
 }
 body {
     font-family: "Source Sans Pro", sans-serif;
-    font-size: larger;
+    font-size: x-large;
     background-color: #151515;
-    color: white;
+    color: #f4f4f4;
 }
 code {
     font-family: "Source Code Pro", monospace;
