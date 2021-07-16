@@ -30,7 +30,8 @@ ul {
 }
 ul.find-me-elsewhere > li {
     display: inline;
-    margin-right: 1vw;
+    margin: 1vw;
+    line-height: 2;
 }
 .projects.grid {
     margin: 3vh;
