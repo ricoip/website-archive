@@ -1,43 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-    <meta charset="utf-8">
     <head>
+        <meta charset="UTF-8">
         <title>Rico Ip</title>
-        <meta name="description" content="Rico Ip's personal website.">
+        <meta name="description" content="A landing page somewhere on the Internet.">
         <meta name="author" content="Rico Ip">
+        <meta name="theme-color" content="#f2eadc">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- CSS -->
-        <link href="/css/main.css" rel="stylesheet">
-        <style type="text/css">
-            footer {
-                margin-top: 30px;
-            }
-            footer a {
-                color: darkseagreen;
-            }
-            .icons a {
-                text-decoration: none;
-            }        
-        </style>
+        <link rel="stylesheet" href="/css/main.css">
     </head>
     <body>
-        <header>
-            <nav>
-                <li><a class="current" href="/">Home</a></li>
-                <li>&middot;</li>
-                <li><a href="https://blog.ricoip.com">Blog</a></li>
-                <li><a href="https://www.youtube.com/channel/UC97jC4N_-X1JbGcg2x1XOzA">YouTube</a></li>
-                <li><a href="https://twitter.com/ricoipwk">Twitter</a></li>
-            </nav>
-        </header>
-        <div class="main">
-            <h2>Rico Ip</h2>
-            <p>technically a developer?</p>
-            <details>
-                <summary>Privacy Info</summary>
-                <p>Rico Ip does not collect any information on this website, but GitHub Pages, the service I'm using, has a <a href="https://help.github.com/en/github/site-policy/github-privacy-statement#github-pages">privacy policy</a> which you can view.</p>
-                <p>Cloudflare also provides analytics for this website.</p>
-            </details>
+        <div class="actual-content">
+            <header>
+                <h1>Rico Ip</h1>
+                <p>Welcome to a landing page somewhere on the Internet.</p>
+                <p>This is still a work-in-progress. I wish to continue improving this site.</p>
+            </header>
+            <section>
+                <h2 class="section-title">Find me elsewhere</h2>
+                <ul class="find-me-elsewhere">
+                    <li><a href="https://www.youtube.com/channel/UC97jC4N_-X1JbGcg2x1XOzA/">YouTube</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCbUUrjQ2rKNgfowIFHIHVCQ/">YouTube (school)</a></li>
+                    <li><a href="https://twitter.com/ricoipwk/">Twitter</a></li>
+                    <li><a href="https://github.com/ricoip/">GitHub</a></li>
+                    <li><a href="https://blog.ricoip.com/">Blog</a></li>
+                    <li><a href="http://newsletter.ricoip.com/">Newsletter (HTTP only)</a></li>
+                </ul>
+            </section>
+            <section>
+                <h2 class="section-title">I sorta do programming</h2>
+                <p><i>
+                    Yeah, sorta.
+                    <br>
+                    I'm just a beginner, but I'm learning to be better at doing things.
+                </i></p>
+                <p>Here are some things that I did:</p>
+                    <section>
+                        <h3>iOS Shortcuts</h3>
+                        <div class="projects grid">
+                            <figure>
+                                <b>QRContacts</b>
+                                <br>My first published shortcut.<br>
+                                <a href="https://routinehub.co/shortcut/4147/">Check it out on RoutineHub</a>
+                            </figure>
+                            <figure>
+                                <b>ChargeHook</b>
+                                <br>How to annoy people in a Discord server.<br>
+                                <a href="https://routinehub.co/shortcut/8195/">Not yet published</a>
+                            </figure>
+                        </div>
+                        <h3>HTML and CSS</h3>
+                        <div class="projects grid">
+                            <figure>
+                                <b>ricoip.com</b>
+                                <br>The website you are looking at right now.<br>
+                                <a href="https://github.com/ricoip/ricoip.github.io/">Check out the source code</a>
+                            </figure>
+                        </div>
+                        <h3>Arduino C++</h3>
+                        <div class="projects grid">
+                            <figure>
+                                <b>Coming soon</b>
+                                <br>soon:tm:
+                            </figure>
+                        </div>
+                    </section>
+            </section>
+            <section>
+                <details>
+                    <summary class="section-title">Privacy notice</summary>
+                    <p>
+                        A couple of services that I use collect your data.
+                        <ul>
+                            <li>GitHub Pages <a href="https://docs.github.com/en/github/site-policy/github-privacy-statement/#github-pages">collects your IP address</a>.</li>
+                            <li>Cloudflare <a href="https://www.cloudflare.com/privacypolicy/">collects log data</a>.</li>
+                        </ul>
+                    </p>
+                </details>
+            </section>
+            <hr>
+            <footer>&copy; 2021. All rights reserved. (actual license to be decided)</footer>
         </div>
     </body>
 </html>

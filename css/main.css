@@ -1,54 +1,38 @@
-@import url("https://rsms.me/inter/inter.css");
-:root {
-    --almostblack: #212121;
-    --almostwhite: #F4F4F4;
-    --halftransparent: #FFFFFF80;
-}
-body {
+html {
     margin: 0;
+    padding: 0;
     height: 100vh;
-    background:linear-gradient(to top left, #7f0000, #7f6a00 70%);
-    color: var(--almostwhite);
+    background-color: #f2eadc;
+    color: #212121;
     font-family: "Inter", sans-serif;
-    font-size: x-large;
+    font-size: larger;
+    line-height: 1.6;
 }
-@supports (font-variation-settings: normal) {
-    body { 
-        font-family: 'Inter var', sans-serif;
-    }
-}
-nav {
-    position: fixed;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100vw;
-    min-height: 45px;
-    max-height: 65px;
-    height: 5%;
-    background-color: var(--halftransparent);
-    color: var(--almostblack);
-}
-nav li {
-    
-    list-style-type: none;
-    margin: 0 1.25% 0 1.25%;
+.actual-content {
+    margin: 5vh auto;
+    max-width: 75vw;
 }
 a {
-    color: inherit;
-    transition: font-weight .2s;
-}
-nav a {
     text-decoration: none;
+    color: #0000aa;
 }
-a:hover, a.current {
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+}
+.section-title {
+    font-size: large;
     font-weight: bold;
+    text-transform: uppercase;
 }
-.main {
-    display: flex;
-    height: 100vh;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+ul.find-me-elsewhere > li {
+    display: inline;
+    margin-right: 1vw;
+}
+.projects.grid {
+    margin: 3vh;
+    display: grid; /* Figure out how to do grid please */
 }
