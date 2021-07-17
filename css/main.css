@@ -4,7 +4,7 @@ html {
     height: 100vh;
     background-color: #f2eadc;
     color: #212121;
-    font-family: "Inter", sans-serif;
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: larger;
     line-height: 1.6;
 }
